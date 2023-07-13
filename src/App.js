@@ -79,7 +79,7 @@ const App = () => {
   const getSeatName = (seatIndex) => {
     const rowNumber = Math.floor(seatIndex / 7) + 1;
     const seatNumber = seatIndex % 7 + 1;
-    return `Row ${rowNumber}, Seat ${seatNumber}`;
+    return `R-${rowNumber}  Seat ${seatNumber}`;
   };
 
   return (
